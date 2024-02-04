@@ -24,6 +24,9 @@ main{
 .container p{
     font-size: .9rem;
 }
+.ratings{
+    margin-top:40px;
+}
 .customerratings{
     display: flex;
     flex-wrap: wrap;
@@ -93,6 +96,8 @@ main{
 }
 h1{
     color:hsl(300, 43%, 22%);
+    font-weight:700;
+    margin-top:20px;
 }
 p{
     color:hsl(303, 10%, 53%);
@@ -132,5 +137,8 @@ p{
     .review p{
         margin-bottom:0;
         font-size: 1rem;
+    }
+    .ratings{
+        margin-top:auto;
     }
 }
