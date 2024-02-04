@@ -102,7 +102,10 @@ h1{
 p{
     color:hsl(303, 10%, 53%);
 }
-
+.firstratings-text, .secondratings-text, .thirdratings-text{
+    font-weight:700;
+    color:hsl(300, 43%, 22%);
+}
 
 @media(max-width:480px){
     h1{
